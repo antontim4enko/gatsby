@@ -34,6 +34,7 @@ collections:
     langKey: "ru"
     slug: "{{slug}}"
     extension: ".ru"
+    format: "frontmatter"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
       - {label: "Language", name: "language", widget: "hidden", default: "ru"}
