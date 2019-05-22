@@ -13,7 +13,7 @@ collections:
     filter: {field: "language", value: "en"}
     langKey: "en"
     slug: "{{slug}}"
-    extension: ".en"
+    extension: ".en.md"
     format: "frontmatter"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
@@ -33,7 +33,7 @@ collections:
     filter: {field: "language", value: "ru"}
     langKey: "ru"
     slug: "{{slug}}"
-    extension: ".ru"
+    extension: ".ru.md"
     format: "frontmatter"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
