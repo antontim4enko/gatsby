@@ -12,7 +12,8 @@ collections:
     create: true
     filter: {field: "language", value: "en"}
     langKey: "en"
-    slug: "{{slug}}{.}{en}"
+    slug: "{{slug}}"
+    extension: ".en"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
       - {label: "Language", name: "language", widget: "hidden", default: "en"}
@@ -30,7 +31,8 @@ collections:
     create: true
     filter: {field: "language", value: "ru"}
     langKey: "ru"
-    slug: "{{slug}}{.}{ru}"
+    slug: "{{slug}}"
+    extension: ".ru"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
       - {label: "Language", name: "language", widget: "hidden", default: "ru"}
