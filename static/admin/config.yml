@@ -14,6 +14,7 @@ collections:
     langKey: "en"
     slug: "{{slug}}"
     extension: ".en"
+    format: "frontmatter"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
       - {label: "Language", name: "language", widget: "hidden", default: "en"}
